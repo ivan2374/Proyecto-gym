@@ -1,0 +1,265 @@
+
+
+*{  
+    font-family: 'Roboto', sans-serif;;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	height: 80px;
+	background-color: rgb(245, 245, 245);
+    position: fixed;
+    ;
+
+}
+header .container2{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	align-items: center;
+	
+}
+header .logo{
+	margin: 0;
+	padding: 10px 0px ;
+	font-weight: 500;
+	color:  orange;
+	font-size: 50px;
+	grid-column: 2;
+}
+header img{
+    width: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+header nav{
+	display: flex;
+	align-items: center;
+    
+	grid-column: 11;
+
+}
+header a{
+    font-family: 'Roboto', sans-serif;
+
+	padding: 5px 12px;
+	text-decoration: none;
+	font-weight: 500;
+	color: black;
+	font-size: 20px;
+
+}
+header a:hover{
+	color: red;
+}
+
+/* presentacion */
+.presentacion{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    height: 800px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("img/hero.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100%;
+    margin: 0;
+	padding: 0;
+
+}
+.titulo {
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 5;
+}
+.titulo h1{
+color: orange;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 90px;
+    font-weight: 500;
+    
+    
+}
+.subtitulo{
+    display: grid;
+    grid-column-start: 2 ;
+    grid-row-start: 7 ;
+}
+.subtitulo p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;   
+    
+}
+.registro{
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 9 ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.registro a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: transparent;
+    padding: 20px;
+}
+.registro a:hover{
+    color: white;
+    background-color: red;
+}
+
+/* seccion de planes */
+
+.planes {
+    padding-top: 50px;
+    display:  flex;
+    justify-content: space-around;
+    
+}
+.division{
+    margin-top: 20px;
+    margin-bottom:  20px;
+    border-top: 1px solid white;
+}
+
+/* plan silver */
+.plan-silver{
+    border: 3px solid white;
+    background-color: rgba(31, 31, 31, 0.87);
+    box-shadow: 0 0 20px 0 #000;
+    border-radius: 20px;
+    padding: 20px 10px;
+    text-align: center;
+    width: 20%;
+ 
+}
+.plan-silver h3{
+    margin: 0px 10px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+.plan-silver p{
+    font-size: 25px;
+    color: white;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.plan-silver button{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;  
+    width: 100%;
+    background-color: #1fe1ba;
+}
+
+.plan-silver li{
+    color: white;
+    padding-top: 10px;
+    text-align: start;
+    padding-left: 15px;   
+}
+.plan-silver button:hover{
+    color: white;
+}
+/* plan gold*/
+.plan-gold{
+    border: 3px solid white;
+    background-color: rgba(31, 31, 31, 0.87);
+    box-shadow: 0 0 20px 0 #000;
+    border-radius: 20px;
+    padding: 20px 10px;
+    text-align: center;
+    width: 20%;
+ 
+}
+.plan-gold h3{
+    margin: 0px 10px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+.plan-gold p{
+    font-size: 25px;
+    color: white;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.plan-gold button{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;  
+    width: 100%;
+    background-color: #f7f331;
+}
+.plan-gold li{
+    color: white;
+    padding-top: 10px;
+    text-align: start;
+    padding-left: 15px;   
+}
+.plan-gold button:hover{
+    color: white;
+}
+/* plan platinum*/
+.plan-platinum{
+    border: 3px solid white;
+    background-color: rgba(31, 31, 31, 0.87);
+    box-shadow: 0 0 20px 0 #000;
+    border-radius: 20px;
+    padding: 20px 10px;
+    text-align: center;
+    width: 20%;
+ 
+}
+.plan-platinum h3{
+    margin: 0px 10px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+.plan-platinum p{
+    font-size: 25px;
+    color: white;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.plan-platinum button{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;  
+    width: 100%;
+    background-color: #b62eec;
+}
+.plan-platinum li{
+    color: white;
+    padding-top: 10px;
+    text-align: start;
+    padding-left: 15px;   
+}
+.plan-platinum button:hover{
+    color: white;
+}
