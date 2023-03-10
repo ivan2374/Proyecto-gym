@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6a5a1b02b4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/6a5a1b02b4.css" crossorigin="anonymous">
+
 
 </head>
 <body>
@@ -18,25 +21,36 @@
                 <img  src="img/icono.png" alt="">
             <p class="logo">POWERGYM</p>
             <nav>
-                <a href="#">Sobre nosotros</a>
-                <a href="#">Planes</a>
-                <a href="#">Beneficios</a>
+                <a href="#id-nosotros">Sobre nosotros</a>
+                <a href="#id-planes">Planes</a>
+                <a href="#id-beneficios">Beneficios</a>
             </nav>
         </div>
         </div>
     </header>
     <section class="presentacion">
         <div class="titulo">
-            <h1> Potenciamos <br> tu bienestar </h1>
+            <h1><br> SE MAS FUERTE <br> <span> QUE TUS EXCUSAS</span> </h1>
         </div>
         <div class="subtitulo">
             <p>Comenzá hoy a buscar tu mejor versión</p>
         </div>
         <div class="registro">
-            <a href="#" target="_blank" rel="noopener noreferrer">ASOCIATE</a>
+        <!-- <a href="#" target="_blank" rel="noopener noreferrer">ASOCIATE</a> -->
+            <form target="_blank">
+                <button class="asociate" type="submit">ASOCIATE</button>
+            </form>
         </div>
     </section>
+    <div class="plan-titulo" >
+        <h3> ELEGI <br> TU PLAN</h3>
+        <p id="id-planes">Todo lo que buscás en un solo lugar. <br>
+            Estás a un click de distancia de asociarte a la comunidad deportiva mas grande del pais.
+        </p>
+        
+    </div>
     <section class="planes">
+        
         <div class="plan-silver">
             <h3>PLAN <br> SILVER</h3>
             <div class="division"></div>
@@ -53,8 +67,8 @@
             <h3>PLAN <br> GOLD</h3>
             <div class="division"></div>
             <p>PRECIO <br> $7000 /mes</p>
-            <form action="">
-                <button>SUSCRIBITE</button>
+            <form target="_blank">
+                <button type="submit">SUSCRIBITE</button>
             </form>
             <div class="division"></div>
             <li>Actividades indoor</li>
@@ -80,5 +94,36 @@
             <li>Apto fisico sin cargo</li>
         </div>
     </section>
+    <footer>
+        <div class="contenedor-footer">
+           <div class="sobrenosotros">
+                <h2 id="id-nosotros">Sobre Nosotros</h2>
+                <p>somos un gimnasio con grandes aspiraciones, conocimientos sólidos en las actividades que brindamos y mas de 20 años de expeciencia. <br>
+                Nuestra mision es que las personas puedan ejercitarse con pasion y alcanzar sus objetivos individuales
+                </p>
+            </div>
+            <div class="contacto">
+            <h2> Contacto</h2>
+                <p>sede caballito <br>
+                av rivadavia 3015 <br>
+                tel- 5353-5400</p>
+                <h4>seguinos en nuestras redes</h4>
+                <div class="redes-container">
+                    <ul>
+                        <li><a href="#" class="facebook"> <i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" class="instagram"> <i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#" class="twitter"> <i class="fab fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        <div class="sub-footer">
+            <p> Copyright © 2023 <br> Telf. (+34) 871 536 233
+                - info@gmail.com
+
+            </p>
+        </div>
+    </footer>
 </body>
 </html>

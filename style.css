@@ -47,10 +47,15 @@ header a{
 	font-weight: 500;
 	color: black;
 	font-size: 20px;
+    line-height: 30px;
+    transform: .5s;
+
 
 }
 header a:hover{
 	color: red;
+    transform: translateY(-3px) scale(1.1);
+
 }
 
 /* presentacion */
@@ -70,15 +75,17 @@ header a:hover{
 .titulo {
     display: grid;
     grid-column-start: 2;
-    grid-row-start: 5;
+    grid-row-start: 6;
 }
 .titulo h1{
 color: orange;
     font-family: 'Roboto', sans-serif;;
     font-size: 90px;
     font-weight: 500;
-    
-    
+}
+.titulo span{
+    color: white;
+    font-size: 90px;
 }
 .subtitulo{
     display: grid;
@@ -101,7 +108,8 @@ color: orange;
     justify-content: center;
     align-items: center;
 }
-.registro a{
+.registro a, .asociate{
+
     text-decoration: none;
     color: white;
     font-size: 30px;
@@ -109,11 +117,13 @@ color: orange;
     border: 1px solid white;
     border-radius: 15px;
     background-color: transparent;
-    padding: 20px;
+    padding: 10px;
+    display: block;
+    
 }
-.registro a:hover{
-    color: white;
-    background-color: red;
+.registro a,.asociate:hover{
+    color: rgba(247, 8, 60, 0.973);
+    cursor: pointer;
 }
 
 /* seccion de planes */
@@ -122,6 +132,7 @@ color: orange;
     padding-top: 50px;
     display:  flex;
     justify-content: space-around;
+    padding: 20px 0px;
     
 }
 .division{
@@ -129,6 +140,33 @@ color: orange;
     margin-bottom:  20px;
     border-top: 1px solid white;
 }
+/*elegi tu plan*/
+.plan-titulo{
+    width: 100%;
+    padding: 50px 0px;
+
+    
+}
+.plan-titulo h3{
+    text-align:center;
+    font-size: 60px;
+ }
+ .plan-titulo p{
+    font-size: 20px;
+    padding: 20px 0px;
+    text-align: center;
+   
+ }
+ .mensual,
+ .anual {
+    pad: 20px 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 3px outset ;
+    font-size: 20px;
+ }
 
 /* plan silver */
 .plan-silver{
@@ -174,6 +212,8 @@ color: orange;
 }
 .plan-silver button:hover{
     color: white;
+    cursor: pointer;
+
 }
 /* plan gold*/
 .plan-gold{
@@ -218,6 +258,8 @@ color: orange;
 }
 .plan-gold button:hover{
     color: white;
+    cursor: pointer;
+
 }
 /* plan platinum*/
 .plan-platinum{
@@ -262,4 +304,97 @@ color: orange;
 }
 .plan-platinum button:hover{
     color: white;
+    cursor: pointer;
+
+}
+.contenedor-footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    height: 250px;
+    background-color: black;
+}
+.sobrenosotros{
+    border: 1px solid white;
+    margin: 5px;
+    padding: 0px 10px;
+}
+.sobrenosotros,
+.contacto{
+    width:30% ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sobrenosotros h2,
+.contacto h2 {
+    font-size: 40px;
+    color: white;
+   
+}
+.contacto h4{
+    padding-top: 10px;
+    color: white;
+}
+
+.sobrenosotros p,
+.contacto p {
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 10px 0px;
+}
+.redes-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.redes-container ul li{
+    display: inline-block;
+    margin:0px  5px;
+    width: 50px;
+    height: 10px;
+    text-align: center;
+}
+.redes-container ul li a{
+    display: block;
+    padding: 0px 0px;
+    background: #333;
+    border-radius: 100px;
+    color: white;
+    line-height: 50px;
+    font-size: 15px;
+    transform: .5s;
+    
+}
+.redes-container ul:hover a {
+    filter: blur(1px);
+}
+.redes-container ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    filter: none;
+
+}
+.redes-container ul li .facebook:hover{
+    background: rgb(42, 62, 240) ;
+}
+.redes-container ul li .instagram:hover{
+    background: rgba(243, 42, 243, 0.753) ;
+}
+.redes-container ul li .twitter:hover{
+    background: rgba(18, 152, 230, 0.753) ;
+}
+.sub-footer{
+    color: white;
+    background-color: red;
+    font-size: 15px;
+    background-color: #333;
+    display: grid;
+    justify-content: center;
+    text-align: center;
 }
