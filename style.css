@@ -10,7 +10,7 @@ header{
 	height: 80px;
 	background-color: rgb(245, 245, 245);
     position: fixed;
-    ;
+    z-index: 10 ;
 
 }
 header .container2{
@@ -35,9 +35,7 @@ header img{
 header nav{
 	display: flex;
 	align-items: center;
-    
 	grid-column: 11;
-
 }
 header a{
     font-family: 'Roboto', sans-serif;
@@ -129,10 +127,11 @@ color: orange;
 /* seccion de planes */
 
 .planes {
-    padding-top: 50px;
     display:  flex;
     justify-content: space-around;
-    padding: 20px 0px;
+    padding-bottom: 100px;
+    padding-top: 40px;
+
     
 }
 .division{
@@ -157,16 +156,7 @@ color: orange;
     text-align: center;
    
  }
- .mensual,
- .anual {
-    pad: 20px 20px;
-    width: 200px;
-    height: 50px;
-    border-radius: 20px;
-    background-color: transparent;
-    border: 3px outset ;
-    font-size: 20px;
- }
+
 
 /* plan silver */
 .plan-silver{
@@ -203,14 +193,17 @@ color: orange;
     width: 100%;
     background-color: #1fe1ba;
 }
-
+.plan-silver a{
+    color: black;
+    text-decoration: none;
+}
 .plan-silver li{
     color: white;
     padding-top: 10px;
     text-align: start;
     padding-left: 15px;   
 }
-.plan-silver button:hover{
+.plan-silver a:hover{
     color: white;
     cursor: pointer;
 
@@ -307,6 +300,77 @@ color: orange;
     cursor: pointer;
 
 }
+/* seccion de actividades*/
+span{
+    color: orange
+}
+.titulo-actividades{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titulo-actividades h3{
+    padding-top: 50px ;
+    text-align: center;
+    font-size: 60px;
+}
+.titulo-actividades p {
+    font-size: 20px;
+    padding: 20px 0px;
+    text-align: center;
+   
+}
+.slider-container{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.position{
+    position: static;
+    border-radius: 50px;
+
+    
+
+}
+.slider{
+    background-image: url(img/7.jfif);
+    background-size: cover;
+    width: 550px;
+    height: 800px;
+    animation: animate 30s infinite;
+    width: 50%;
+    
+
+}
+@keyframes animate{
+    30%{
+        background-image: url(img/1.jfif);
+        background-size: cover;
+
+    }
+    50%{
+        background-image: url(img/2.jfif);
+        background-size: cover;
+        background-position: center;
+
+    }
+    70%{
+        background-image: url(img/3.jfif);
+        background-size: cover;
+    }
+   
+    90%{
+        background-image: url(img/8.jfif);
+        background-size: cover;
+    }
+    110%{
+        background-image: url(img/9.jfif);
+        background-size: cover;
+    }
+    
+}
 .contenedor-footer{
     width: 100%;
     display: flex;
@@ -398,3 +462,4 @@ color: orange;
     justify-content: center;
     text-align: center;
 }
+/* menos de 1220px  cambiar pantallas */
