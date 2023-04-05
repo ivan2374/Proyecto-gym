@@ -1,0 +1,67 @@
+
+/* presentacion */
+.presentacion{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    height: 800px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../../img/hero.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100%;
+    margin: 0;
+	padding: 0;
+}
+.titulo {
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 6;
+}
+.titulo h1{
+color: orange;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 90px;
+    font-weight: 500;
+}
+.titulo span{
+    color: white;
+    font-size: 90px;
+}
+.subtitulo{
+    display: grid;
+    grid-column-start: 2 ;
+    grid-row-start: 7 ;
+}
+.subtitulo p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;   
+    
+}
+.registro{
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 9 ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.registro a, .asociate{
+
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: transparent;
+    padding: 10px;
+    display: block;
+    
+}
+.registro a,.asociate:hover{
+    color: rgba(247, 8, 60, 0.973);
+    cursor: pointer;
+}

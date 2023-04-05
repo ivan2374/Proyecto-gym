@@ -8,7 +8,7 @@
 
 header{
 	height: 80px;
-	background-color: rgb(245, 245, 245);
+	background-color: rgb(255, 255, 255);
     position: fixed;
     z-index: 10 ;
 
@@ -162,7 +162,7 @@ color: orange;
 .plan-silver{
     border: 3px solid white;
     background-color: rgba(31, 31, 31, 0.87);
-    box-shadow: 0 0 20px 0 #000;
+    box-shadow: 5px  10px 20px #000;
     border-radius: 20px;
     padding: 20px 10px;
     text-align: center;
@@ -212,7 +212,7 @@ color: orange;
 .plan-gold{
     border: 3px solid white;
     background-color: rgba(31, 31, 31, 0.87);
-    box-shadow: 0 0 20px 0 #000;
+    box-shadow: 5px  10px 20px #000;
     border-radius: 20px;
     padding: 20px 10px;
     text-align: center;
@@ -258,7 +258,7 @@ color: orange;
 .plan-platinum{
     border: 3px solid white;
     background-color: rgba(31, 31, 31, 0.87);
-    box-shadow: 0 0 20px 0 #000;
+    box-shadow: 5px  10px 20px #000;
     border-radius: 20px;
     padding: 20px 10px;
     text-align: center;
@@ -302,7 +302,7 @@ color: orange;
 }
 /* seccion de actividades*/
 span{
-    color: orange
+    color:orange;
 }
 .titulo-actividades{
     width: 50%;
@@ -371,6 +371,7 @@ span{
     }
     
 }
+
 .contenedor-footer{
     width: 100%;
     display: flex;

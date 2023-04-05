@@ -1,0 +1,50 @@
+
+header{
+	height: 80px;
+	background-color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 10 ;
+
+}
+header .container2{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	align-items: center;
+	
+}
+header .logo{
+	margin: 0;
+	padding: 10px 0px ;
+	font-weight: 500;
+	color: orange;
+	font-size: 50px;
+	grid-column: 2;
+}
+header img{
+    width: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+header nav{
+	display: flex;
+	align-items: center;
+	grid-column: 11;
+}
+header a{
+    font-family: 'Roboto', sans-serif;
+
+	padding: 5px 12px;
+	text-decoration: none;
+	font-weight: 500;
+	color: black;
+	font-size: 20px;
+    line-height: 30px;
+    transform: .5s;
+
+
+}
+header a:hover{
+	color: red;
+    transform: translateY(-3px) scale(1.1);
+
+}

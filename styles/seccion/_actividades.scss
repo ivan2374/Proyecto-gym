@@ -1,0 +1,71 @@
+/* seccion de actividades*/
+span{
+    color: orange;
+}
+.titulo-actividades{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titulo-actividades h3{
+    padding-top: 50px ;
+    text-align: center;
+    font-size: 60px;
+}
+.titulo-actividades p {
+    font-size: 20px;
+    padding: 20px 0px;
+    text-align: center;
+   
+}
+.slider-container{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.position{
+    position: static;
+    border-radius: 50px;
+
+    
+
+}
+.slider{
+    background-image: url(../../img/1.jfif);
+    background-size: cover;
+    width: 550px;
+    height: 800px;
+    animation: animate 30s infinite;
+    width: 50%;
+    
+
+}
+@keyframes animate{
+    30%{
+        background-image: url("../../img/1.jfif");
+        background-size: cover;
+
+    }
+    50%{
+        background-image: url("../../img/2.jfif");
+        background-size: cover;
+        background-position: center;
+
+    }
+    70%{
+        background-image: url("../../img/3.jfif");
+        background-size: cover;
+    }
+   
+    90%{
+        background-image: url("../../img/8.jfif");
+        background-size: cover;
+    }
+    110%{
+        background-image: url("../../img/9.jfif");
+        background-size: cover;
+    }
+    
+}

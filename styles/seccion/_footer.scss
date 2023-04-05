@@ -1,0 +1,93 @@
+.contenedor-footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    padding: 50px 0px;
+}
+.sobrenosotros{
+    border: 1px solid white;
+    margin: 5px;
+    padding: 0px 10px;
+}
+.sobrenosotros,
+.contacto{
+    width:30% ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sobrenosotros h2,
+.contacto h2 {
+    font-size: 40px;
+    color: white;
+   
+}
+.contacto h4{
+    padding-top: 10px;
+    color: white;
+}
+
+.sobrenosotros p,
+.contacto p {
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 10px 0px;
+}
+.redes-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.redes-container ul li{
+    display: inline-block;
+    margin:0px  5px;
+    width: 50px;
+    height: 10px;
+    text-align: center;
+}
+.redes-container ul li a{
+    display: block;
+    padding: 0px 0px;
+    background: #333;
+    border-radius: 100px;
+    color: white;
+    line-height: 50px;
+    font-size: 15px;
+    transform: .5s;
+    
+}
+.redes-container ul:hover a {
+    filter: blur(1px);
+}
+.redes-container ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    filter: none;
+
+}
+.redes-container ul li .facebook:hover{
+    background: rgb(42, 62, 240) ;
+}
+.redes-container ul li .instagram:hover{
+    background: rgba(243, 42, 243, 0.753) ;
+}
+.redes-container ul li .twitter:hover{
+    background: rgba(18, 152, 230, 0.753) ;
+}
+.sub-footer{
+    color: white;
+    background-color: red;
+    font-size: 15px;
+    background-color: #333;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 0px;
+}
