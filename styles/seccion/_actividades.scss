@@ -33,7 +33,7 @@ span{
 
 }
 .slider{
-    background-image: url(../../img/1.jfif);
+    background-image: url(../../assets/1.jfif);
     background-size: cover;
     width: 550px;
     height: 800px;
@@ -44,27 +44,27 @@ span{
 }
 @keyframes animate{
     30%{
-        background-image: url("../../img/1.jfif");
+        background-image: url("../../assets/1.jfif");
         background-size: cover;
 
     }
     50%{
-        background-image: url("../../img/2.jfif");
+        background-image: url("../../assets/2.jfif");
         background-size: cover;
         background-position: center;
 
     }
     70%{
-        background-image: url("../../img/3.jfif");
+        background-image: url("../../assets/3.jfif");
         background-size: cover;
     }
    
     90%{
-        background-image: url("../../img/8.jfif");
+        background-image: url("../../assets/8.jfif");
         background-size: cover;
     }
     110%{
-        background-image: url("../../img/9.jfif");
+        background-image: url("../../assets/9.jfif");
         background-size: cover;
     }
     

@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GYM</title>
-<link rel="stylesheet" href="styles/style.css">
+    <!-- css -->
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- fuente roboto -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6a5a1b02b4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://kit.fontawesome.com/6a5a1b02b4.css" crossorigin="anonymous">
-    
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 
 
 </head>
@@ -19,12 +23,12 @@
     <header>
         <div class="container1">
             <div class="container2">
-                <img  src="img/icono.png" alt="">
+                <img  src="assets/icono.png" alt="">
             <p class="logo"> <a href="index.html"></a> POWERGYM</p>
             <nav>
                 <a href="#id-nosotros">Sobre nosotros</a>
                 <a href="#id-planes">Planes</a>
-                <a href="#id-beneficios">Beneficios</a>
+                <a href="#">Shop</a>
             </nav>
         </div>
         </div>
@@ -113,28 +117,32 @@
         </div>
     </section>
     <section class="container-preguntas">
+        <h1> Preguntas Frecuentes</h1>
         
-        <h2  id="hidden-btn" >¿Como registrase? </h2>
-            <span class="hidden" id="hidden-text"> 
-               <p> Hacer click en el boton REGISTRARSE y completar todos los datos solicitados.</p></span>
-
-        <h2  id="hidden-btn" >¿Debo tener apto medico para poder entrenar? </h2>
-            <span class="hidden" id="hidden-text"> 
-               <p> A partir del 2023 es obligatorio presentar un certificado de aptitud fisica para poder hacer actividad fisica, podes traerlo de forma particular o te podes atender en nuestras sedes por nuestros especialistas.</p></span>
-            
+        <h2  class="preg" id="hidden-btn" >¿Como registrase? </h2>
+               <p class="resp" id="hidden-text" style="display: none;"> Hacer click en el boton REGISTRARSE y completar todos los datos solicitados.</p>
+        
+            <div class="separador"></div>
+            <h2  class="preg2"  id="hidden-btn2" >¿Como se abona la cuota mensual? </h2>
+            <p class="resp2" id="hidden-text2"style="display: none;"> En un Plan Mensual, el primer cargo en tu cuenta se genera al momento de tu alta y corresponde al primer mes de vigencia de tu Plan. La vigencia se renueva de forma automática cada mes el mismo día en el que te diste de alta.</p>
+                <div class="separador"></div>
+                
+                
+                <h2 class="preg3"  id="hidden-btn3" >¿A partir de que edad puedo ir al gym? </h2>
+                <p class="resp3"id="hidden-text3" style="display: none;"> La edad más recomendada para comenzar en el gym es una vez terminado el proceso de desarrollo de la pubertad, entre los 15 y 16 años.</p>
+                <div class="separador"></div>
+                
+                
+                <h2  class="preg4" id="hidden-btn4" >¿Debo tener apto medico para poder entrenar? </h2>
+                <p class="resp4"id="hidden-text4" style="display: none;"> Tu apto médico vigente es obligatorio al momento de iniciar una actividad física. Es obligatorio tener el apto médico al día para ingresar a nuestras instalaciones. Una vez que lo tengas podrás enviarlo a apto.medico@powergym.com.ar aclarando tu número de DNI.</p>
+                <div class="separador"></div>
+               
         
         </div>
-        <script>
-            let hidden_btn = document.getElementById("hidden-btn");
-
-            let hidden_text=document.getElementById("hidden-text");
-
-            hidden_btn.addEventListener("click",textH);
-            function textH() {
-                hidden_text.classList.toggle("show");
-            }
-        </script>
+      
     </section>
+
+
     <footer>
         <div class="contenedor-footer">
            <div class="sobrenosotros">
@@ -166,5 +174,8 @@
             </p>
         </div>
     </footer>
+
+    <script src="functions.js"></script>
+
 </body>
 </html>
