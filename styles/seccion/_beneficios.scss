@@ -1,0 +1,26 @@
+.beneficios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.beneficios-card{
+    display: flex;
+    flex-direction: row;
+    padding-left:  50px;
+
+}
+.beneficios h1{
+    padding-top: 50px ;
+    text-align: center;
+    font-size: 60px;
+}
+.beneficios-card .card> img{
+    width: 350px;
+}
+.card-body{
+    width: 100%;
+}
+.card{
+    width: 350px;
+}
