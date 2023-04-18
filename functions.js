@@ -58,3 +58,19 @@
     }
   })
   
+//funcion para cards
+
+$(document).ready(function(){
+  $(".Cxit").hide();
+$("#abrir-modal").click(function()
+  {$("#modalContacto").show();}
+)
+
+}, 
+$('.cerrar-modal').click( function() {
+  $("#modalContacto").hide();
+  $(".Cxit").hide();
+}),
+$("#si").click(function(){$(".Cxit").show();})
+)
+

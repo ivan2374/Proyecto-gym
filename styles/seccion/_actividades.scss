@@ -29,11 +29,14 @@ span{
 }
 .container-img{
     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 .container-img > img{
     width: 20%;
     padding: 5px;
 }
+
 /*
 .position{
     position: static;

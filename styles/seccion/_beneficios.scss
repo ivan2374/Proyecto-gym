@@ -7,20 +7,40 @@
 .beneficios-card{
     display: flex;
     flex-direction: row;
-    padding-left:  50px;
+    padding-left:  10px;
+}
+.titulo-beneficios{
+    padding: 50px;
+}
+.card a{
+    text-decoration: none;
+    color: black;
 
 }
 .beneficios h1{
-    padding-top: 50px ;
     text-align: center;
     font-size: 60px;
+
 }
 .beneficios-card .card> img{
     width: 350px;
 }
 .card-body{
     width: 100%;
+
+    
 }
 .card{
-    width: 350px;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+
+    
+}
+.card:hover {
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0px 5px 10px rgb(100, 100, 100);
+    font-weight: bold;
+    
 }
