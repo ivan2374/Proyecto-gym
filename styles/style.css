@@ -571,6 +571,36 @@ header a:hover {
 
 }
 
+
+@media (max-width: 1200px) {
+  .planes {
+      flex-direction:column;
+      align-items: center;
+      width: 100%;
+  }
+
+  .plan-silver, .plan-gold, .plan-platinum {
+      width: 50%;
+      margin-bottom: 2rem;;
+  }
+
+  .plan-platinum button, .plan-gold button , .plan-silver button {
+      font-size: 15px;
+  }
+
+  .plan-platinum h3, .plan-gold h3, .plan-silver h3 {
+      font-size: 30px;
+  }
+
+  .plan-silver p, .plan-gold p, .plan-platinum p {
+      font-size: 18px;
+  }
+
+  .plan-silver li, .plan-gold li, .plan-platinum li {
+      font-size: 10px;
+  }
+}
+
 /* seccion de actividades*/
 span {
   color: orange;
