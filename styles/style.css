@@ -599,6 +599,14 @@ header a:hover {
   .plan-silver li, .plan-gold li, .plan-platinum li {
       font-size: 10px;
   }
+
+  .plan-titulo p {
+    font-size: 15px;
+  }
+
+  .plan-titulo h3 {
+    font-size: 45px;
+  }
 }
 
 /* seccion de actividades*/
