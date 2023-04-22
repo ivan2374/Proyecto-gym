@@ -59,7 +59,7 @@ window.onload = function () {
     let sliderContainer = document.querySelector('.slider-contenedor');
     let sliderItems = document.querySelectorAll('.slider-test');
     let width = sliderItems[0].clientWidth;
-    let interval = 100000;
+    let interval = 5000;
 
     moveSlider(sliderContainer, sliderItems, width, interval);
 };
