@@ -32,15 +32,12 @@
 
 <body>
     <header>
+        <!-- <nav>
         <div class="container1">
             <div class="container2">
                 <img src="assets/icono.png" alt="">
                 <p class="logo"> <a href="index.html"></a> POWERGYM</p>
-                <nav>
-                    <!-- <a href="#id-actividades">Actividades</a>
-                    <a href="#id-planes">Planes</a>
-                    <a href="#id-faqs">FAQS</a>
-                    <a href="#">Shop</a> -->
+                
                     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   
   
@@ -67,7 +64,51 @@
                         </div>
                    
                     </nav>
-                </nav>
+                </nav> -->
+                <nav class="navbar bg-body-tertiary fixed-top ">
+                    <div class="container-fluid d-flex justify-content-between  contenedor-header">
+                        <div class="tituloLogo">
+                            <img src="assets/icono.png" alt="">
+                            <p class="logo"> <a href="index.html"></a> POWERGYM</p>
+                        </div>
+                        <div class="enlaces">
+                            
+                            <a href="#id-actividades">Actividades</a>
+                            <a href="#id-planes">Planes</a>
+                            <a href="#id-faqs">FAQS</a>
+                            <a href="shop.html" target="_blank">Shop</a>
+                           
+                        </div>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Navegación de palanca">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">POWERGYM</font></font></h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Cerca"></button>
+                        </div>
+                        <div class="offcanvas-body menu">
+                          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                              <a class="nav-link" href="#id-actividades"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Actividades</font></font></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#id-planes"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Planes</font></font></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#id-faqs"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Preguntas</font></font></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Shop</font></font></a>
+                            </li>
+                            
+                          </ul>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
             </div>
         </div>
     </header>
@@ -86,7 +127,7 @@
         </div>
     </section>
 
-    <section id="id-actividades" class="container-fluid">
+    <section id="id-actividades" class="container-fluid ">
         <div class="slider-container">
             <div class="titulo-actividades container">
                 <h3>TODAS LAS <span> <br>
@@ -240,13 +281,7 @@
                 </a>
             </div>
         </div>
-        <!-- <div class="beneficios-card">
-            <div class="card" id="card-3" >
-                <a href="rutina.html" target="_blank"><img src="assets/alimentacion.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Rutinas de entrenamiento perzonalidas.</p></a>
-                </div>
-            </div> -->
+       
     </section>
 
     <section id="id-faqs" class="container faqs   text-center">
@@ -585,26 +620,7 @@ cursor: pointer;
                     individuales
                 </p>
             </div>
-            <!-- <div class="contacto">
-                <h2  id="abrir-modal"> Contacto</h2>
-            </div>
-             
-                    <div class="ccol">Direccion:<br>
-                            sede caballito 
-                            av rivadavia 3015 <br>
-                           <div class="Telco" !important>Tel- 5353-5400</div> 
-    
-             </div>
-                <div class="redes-container">
-                    <ul>
-                        <li><a href="https://facebook.com" target="_blank" class="facebook"> <i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="https://instagram.com" target="_blank" class="instagram"> <i class="fab fa-instagram"></i></a></li>
-                        <li><a href="https://twitter.com"  target="_blank"class="twitter"> <i class="fab fa-twitter"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            
-        </div> -->
+          
             <div class="contacto container">
                 <h2 id="abrir-modal"> Contacto</h2>
                 <p>sede caballito <br>
@@ -630,37 +646,7 @@ cursor: pointer;
             </p>
         </div>
     </footer>
-    <!-- <footer>
-        <div class="contenedor-footer">
-           <div class="sobrenosotros">
-                <h2 id="id-nosotros">Sobre Nosotros</h2>
-                <p>somos un gimnasio con grandes aspiraciones, conocimientos sólidos en las actividades que brindamos y mas de 20 años de expeciencia. <br>
-                Nuestra mision es que las personas puedan ejercitarse con pasion y alcanzar sus objetivos individuales
-                </p>
-            </div>
-            <div class="contacto">
-            <h2> Contacto</h2>
-                <p>sede caballito <br>
-                av rivadavia 3015 <br>
-                tel- 5353-5400</p>
-                <h4>seguinos en nuestras redes</h4>
-                <div class="redes-container">
-                    <ul>
-                        <li><a href="https://facebook.com" target="_blank" class="facebook"> <i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="https://instagram.com" target="_blank" class="instagram"> <i class="fab fa-instagram"></i></a></li>
-                        <li><a href="https://twitter.com"  target="_blank"class="twitter"> <i class="fab fa-twitter"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            
-        </div>
-        <div class="sub-footer">
-            <p> Copyright © 2023 <br> Telf. (+34) 871 536 233
-                - info@gmail.com
-
-            </p>
-        </div>
-    </footer> -->
+    
 
 
     <script src="functions.js"></script>
