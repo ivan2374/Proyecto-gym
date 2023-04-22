@@ -97,7 +97,19 @@
     left: 90px;
 
 }
-#span-title{
+
+#span-title {
     color: black;
     font-size: 32px;
+}
+
+#google {
+    margin-top: -15px;
+    margin-right: 10px;
+    height: 25px;
+    width: 75px;
+    padding-left: 10px;
+}
+.google{
+    display: flex;
 }
