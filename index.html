@@ -37,16 +37,42 @@
                 <img src="assets/icono.png" alt="">
                 <p class="logo"> <a href="index.html"></a> POWERGYM</p>
                 <nav>
-                    <a href="#id-actividades">Actividades</a>
+                    <!-- <a href="#id-actividades">Actividades</a>
                     <a href="#id-planes">Planes</a>
                     <a href="#id-faqs">FAQS</a>
-                    <a href="#">Shop</a>
+                    <a href="#">Shop</a> -->
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  
+  
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav me-auto ">
+                            <li class="nav-item">
+                                
+                                <a href="#id-actividades">Actividades</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#id-planes">Planes</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#id-faqs">FAQS</a>
+                              
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">Shop</a>
+                            </li>
+                          </ul>
+                        </div>
+                   
+                    </nav>
                 </nav>
             </div>
         </div>
     </header>
-    <section class="presentacion">
-        <div class="titulo">
+    <section class="presentacion ">
+        <div class="titulo ">
             <h1><br> SE MAS FUERTE <br> <span> QUE TUS EXCUSAS</span> </h1>
         </div>
         <div class="subtitulo">
@@ -61,9 +87,9 @@
     </section>
 
     <section id="id-actividades" class="container-fluid">
-        <div class="slider-container col-12">
-            <div class="titulo-actividades">
-                <h3>TODAS LAS <span>
+        <div class="slider-container">
+            <div class="titulo-actividades container">
+                <h3>TODAS LAS <span> <br>
                         ACTIVIDADES</span> <br>
                     QUE BUSCÁS</h3>
                 <p> Combinar distintas actividades es fundamental para mantener la motivación y disfrutar al máximo tu
@@ -72,18 +98,27 @@
                 </p>
             </div>
 
-            <div class="container-fluid ">
+            <div class="container contenedor-actividades ">
                 <div class="row container-img d-flex">
                     <img src="assets/boxeo.png" class="" alt="">
-                    <img src="assets/crossfit.png" class="" alt="">
-                    <img src="assets/funcional.png" class="" alt="">
-                    <img src="assets/musculacion.png" class="" alt="">
+                </div>
+                <div class="row container-img d-flex">
 
+                    <img src="assets/funcional.png" class="" alt="">
+                </div>
+                <div class="row container-img d-flex">
+
+                    <img src="assets/crossfit.png" class="" alt="">
+                </div>
+                <div class="row container-img d-flex">
+
+                    <img src="assets/musculacion.png" class="" alt="">
                 </div>
 
 
-            </div>
 
+            </div>
+        </div>
 
     </section>
 
@@ -542,7 +577,7 @@ cursor: pointer;
     <!-- footer -->
     <footer>
         <div class="contenedor-footer">
-            <div class="sobrenosotros">
+            <div class="sobrenosotros container">
                 <h2 id="id-nosotros">Sobre Nosotros</h2>
                 <p>somos un gimnasio con grandes aspiraciones, conocimientos sólidos en las actividades que brindamos y
                     mas de 20 años de expeciencia. <br>
@@ -570,13 +605,13 @@ cursor: pointer;
             </div>
             
         </div> -->
-            <div class="contacto">
+            <div class="contacto container">
                 <h2 id="abrir-modal"> Contacto</h2>
                 <p>sede caballito <br>
                     av rivadavia 3015 <br>
                     tel- 5353-5400</p>
                 <h4>seguinos en nuestras redes</h4>
-                <div class="redes-container">
+                <div class="redes-container container">
                     <ul>
                         <li><a href="https://facebook.com" target="_blank" class="facebook"> <i
                                     class="fab fa-facebook-f"></i></a></li>
