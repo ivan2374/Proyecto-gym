@@ -1,8 +1,8 @@
-//Funcion que genera un numero aleatorio que se usa como indice para obtener los datos de la api rest
+//Funcion que genera un numero aleatorio que se usa como indice para obtener los datos de la api rest.
 let numeroRandom = (min, max) =>
     Math.floor(Math.random() * (max - min)) + min;
 
-// Funcion que realiza una peticion ajax a una url dada como parametro y actualiza los elementos recibidos, todo esto lo realiza de forma asincronica sin bloquear la pagina mientras se espera la respuesta de la misma
+// Funcion que realiza una peticion ajax a una url dada como parametro y actualiza los elementos recibidos, todo esto lo realiza de forma asincronica sin bloquear la pagina mientras se espera la respuesta de la misma.
 function getReview(url, reviewSelector, authorSelector, photoSelector) {
     $.ajax({
         method: 'GET',
@@ -22,7 +22,7 @@ function getReview(url, reviewSelector, authorSelector, photoSelector) {
     });
 }
 
-// Url para las peticiones ajax agregando la funcion numeroRandom para generar aleatoriamente las distintas reseñas
+// Url para las peticiones ajax agregando la funcion numeroRandom para generar aleatoriamente las distintas reseñas.
 let reviewUrl = `https://powergym-adm-default-rtdb.firebaseio.com/${numeroRandom(0, 32)}.json`;
 let firstReviewUrl = `https://powergym-adm-default-rtdb.firebaseio.com/${numeroRandom(0, 32)}.json`;
 let secondReviewUrl = `https://powergym-adm-default-rtdb.firebaseio.com/${numeroRandom(0, 32)}.json`;
@@ -34,7 +34,7 @@ getReview(firstReviewUrl, '.first-review', '.first-author', '.first-photo');
 getReview(secondReviewUrl, '.second-review', '.second-author', '.second-photo');
 getReview(thirdReviewUrl, '.third-review', '.third-author', '.third-photo');
 
-//Funcion encargada de actualizar los datos una vez que se llega al ultimo slide
+//Funcion encargada de actualizar los datos una vez que se llega al ultimo slide.
 function updateReview() {
     let reviewUrl = `https://powergym-adm-default-rtdb.firebaseio.com/${numeroRandom(0, 32)}.json`;
     let firstReviewUrl = `https://powergym-adm-default-rtdb.firebaseio.com/${numeroRandom(0, 32)}.json`;
@@ -46,7 +46,7 @@ function updateReview() {
     getReview(secondReviewUrl, '.second-review', '.second-author', '.second-photo');
     getReview(thirdReviewUrl, '.third-review', '.third-author', '.third-photo');
 }
-
+// La funcion Slices se encarga de proporcionarle un traslado en X hacia la derecha, esto es gracias al operador "-".
 let slider = document.querySelector(".slider-contenedor");
 let sliderIndividual = document.querySelectorAll(".slider-test");
 let contador = 1
