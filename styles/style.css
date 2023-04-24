@@ -1,7 +1,7 @@
 * {
   font-family: "Roboto", sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 0
 }
 
 header {
@@ -11,19 +11,25 @@ header {
   z-index: 10;
 
 }
-.navbar-toggler{
-display: none;}
 
-.tituloLogo{
+.navbar-toggler {
+  display: none;
+}
+
+.tituloLogo {
   display: flex;
 }
+
+
 header .logo {
   margin: 0;
   font-weight: 500;
-  color: orange;
+  color: white;
   font-size: 50px;
 
 }
+
+
 
 header img {
   width: 120px;
@@ -36,15 +42,17 @@ header a {
   padding: 5px 12px;
   text-decoration: none;
   font-weight: 500;
-  color: black;
+  color: orange;
   font-size: 20px;
   line-height: 30px;
   transform: 0.5s;
 }
+
 header a:hover {
-  color: red;
+  color: white;
   transform: translateY(-3px) scale(1.1);
 }
+
 
 /* header nav {
   display: flex;
@@ -56,59 +64,77 @@ header a:hover {
 
 @media (max-width: 850px) {
 
-  .enlaces{
+  .enlaces {
     display: none
   }
-  .navbar-toggler{
-    display: inline;}
+
+  .navbar-toggler {
+    display: inline;
+  }
 
   header nav {
     display: flex;
 
   }
-.nav-item a {
-  font-size: 20px;
-}
-.navbar-toggler-icon{
-  font-size: 20px;
-}
-.menu > ul > li > a{
-  color: rgb(0, 0, 0);
+
+  .nav-item a {
+    font-size: 20px;
+  }
+
+  .navbar-toggler-icon {
+    font-size: 20px;
+  }
+
+  .menu>ul>li>a {
+    color: rgb(0, 0, 0);
 
 
-}
-.menu > ul > li > a:hover{
-  color: red;
-  padding: 10px;
-  font-weight: bold;
-}
+  }
+
+  .menu>ul>li>a:hover {
+    color: red;
+    padding: 10px;
+    font-weight: bold;
+  }
 
 }
+
 @media (max-width: 600px) {
 
   header nav {
     display: flex;
 
   }
+
   header img {
     display: none;
   }
+
   .nav-item a {
     font-size: 15px;
+  
   }
-  .navbar-toggler-icon{
+
+  .navbar-toggler-icon {
     font-size: 18px;
   }
-  .menu > ul > li > a{
-    color: rgb(0, 0, 0);
+
+  .menu>ul>li>a {
+    color: orange;
 
 
   }
-  .menu > ul > li > a:hover{
+
+  .menu>ul>li>a:hover {
     color: red;
     padding: 10px;
     font-weight: bold;
 
+  }
+  .titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 }
@@ -118,11 +144,12 @@ header a:hover {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
-  height: 800px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/hero.jpg");
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/hero5.jpg");
   background-repeat: no-repeat;
-  background-position: left top;
+  background-position: center center;
   background-size: cover;
+  
   margin: 0;
   padding: 0;
 }
@@ -138,11 +165,22 @@ header a:hover {
   font-family: "Roboto", sans-serif;
   font-size: 90px;
   font-weight: 500;
+  text-align: center;
 }
 
 .titulo span {
   color: white;
   font-size: 90px;
+  text-align: center;
+}
+
+.header-logo {
+  color: orange;
+}
+
+.fa-dumbbell {
+  margin-top: 35px;
+
 }
 
 .subtitulo {
@@ -168,22 +206,26 @@ header a:hover {
   align-items: center;
 }
 
-.registro a, .asociate {
+.registro a,
+.asociate {
   text-decoration: none;
-  color: white;
-  font-size: 30px;
+  color: orange;
+  font-size: 20px;
   font-weight: 500;
-  border: 1px solid white;
+  border: 1px solid orange;
   border-radius: 15px;
   background-color: transparent;
   padding: 10px;
   display: block;
+
 }
 
-.registro a, .asociate:hover {
-  color: rgba(247, 8, 60, 0.973);
+.registro a,
+.asociate:hover {
+  color: white;
   cursor: pointer;
 }
+
 @media (max-width: 800px) {
 
   .titulo {
@@ -227,7 +269,8 @@ header a:hover {
     align-items: center;
   }
 
-  .registro a, .asociate {
+  .registro a,
+  .asociate {
     text-decoration: none;
     color: white;
     font-size: 30px;
@@ -239,12 +282,14 @@ header a:hover {
     display: block;
   }
 
-  .registro a, .asociate:hover {
+  .registro a,
+  .asociate:hover {
     color: rgba(247, 8, 60, 0.973);
     cursor: pointer;
   }
 
 }
+
 @media (max-width: 600px) {
 
   .titulo {
@@ -288,7 +333,8 @@ header a:hover {
     align-items: center;
   }
 
-  .registro a, .asociate {
+  .registro a,
+  .asociate {
     text-decoration: none;
     color: white;
     font-size: 30px;
@@ -300,7 +346,8 @@ header a:hover {
     display: block;
   }
 
-  .registro a, .asociate:hover {
+  .registro a,
+  .asociate:hover {
     color: rgba(247, 8, 60, 0.973);
     cursor: pointer;
   }
@@ -416,10 +463,11 @@ header a:hover {
     padding: 50px 0px;
   }
 
-  .contenedor-footer{
+  .contenedor-footer {
     display: flex;
     flex-direction: column;
   }
+
   .sobrenosotros {
     border: 1px solid white;
     margin: 5px;
@@ -459,6 +507,7 @@ header a:hover {
     font-weight: 100;
     padding: 10px 0px;
   }
+
   .redes-container {
     display: flex;
     align-items: center;
@@ -488,12 +537,14 @@ header a:hover {
 
 
 }
+
 @media (max-width: 600px) {
 
-  .contenedor-footer{
+  .contenedor-footer {
     display: flex;
     flex-direction: column;
   }
+
   .redes-container {
     display: flex;
     align-items: center;
@@ -521,6 +572,7 @@ header a:hover {
   }
 
 }
+
 .sub-footer {
   color: white;
   background-color: red;
@@ -618,6 +670,7 @@ header a:hover {
 
 /* seccion de planes */
 .planes {
+
   display: flex;
   justify-content: space-around;
   padding-bottom: 100px;
@@ -631,56 +684,82 @@ header a:hover {
 }
 
 /*elegi tu plan*/
-.planes {
-  display:  flex;
+.planes-contenedor {
+  background-image: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),
+  url(/assets/hero4.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.planes-card {
+  display: flex;
   justify-content: space-around;
   padding-bottom: 100px;
-  padding-top: 40px;
+
 }
-.division{
+
+.division {
   margin-top: 20px;
-  margin-bottom:  20px;
+  margin-bottom: 20px;
   border-top: 1px solid orange;
 }
+
 /*elegi tu plan*/
-.plan-titulo{
+.plan-titulo {
+
   width: 100%;
-  padding: 50px 0px;
+
 }
-.plan-titulo h3{
-  text-align:center;
+
+.plan-titulo h3 {
+  text-align: center;
   font-size: 60px;
   color: orange;
+  margin-top: 100px;
 }
-.plan-titulo p{
+
+.plan-titulo p {
   font-size: 20px;
   padding: 20px 0px;
   text-align: center;
+  color: white;
 }
+
+.span-planes{
+  color: white;
+}
+
 /* plan silver */
-.plan-silver{
+.plan-silver {
   border: 1px solid orange;
   background-color: rgba(0, 0, 0, 0.932);
-  box-shadow: 5px  10px 20px #000;
+  box-shadow: 5px 10px 20px #000;
   padding: 20px 10px;
   text-align: center;
   width: 20%;
 
 }
-.plan-silver h3{
+
+.plan-silver h3 {
   margin: 0px 10px;
   padding-bottom: 10px;
   font-size: 45px;
   text-align: center;
   color: orange;
 }
-.plan-silver p{
+
+.plan-silver p {
   font-size: 25px;
   color: white;
   padding-bottom: 20px;
   text-align: center;
 }
-.plan-silver button{
+
+.plan-silver button {
   color: orange;
   font-size: 20px;
   font-weight: bold;
@@ -688,48 +767,55 @@ header a:hover {
   border-radius: 15px;
   text-align: center;
   width: 65%;
-  background-color: rgba(0, 0, 0, 0.932);;
+  background-color: rgba(0, 0, 0, 0.932);
+  ;
   margin-top: 80%;
 
 }
-.plan-silver a{
+
+.plan-silver a {
   color: black;
   text-decoration: none;
 }
-.plan-silver li{
+
+.plan-silver li {
   color: white;
   padding-top: 10px;
   text-align: start;
   padding-left: 15px;
 }
-.plan-silver button:hover{
+
+.plan-silver button:hover {
   color: white;
   cursor: pointer;
 }
+
 /* plan gold*/
-.plan-gold{
+.plan-gold {
   border: 1px solid orange;
   background-color: rgba(0, 0, 0, 0.932);
-  box-shadow: 5px  10px 20px #000;
+  box-shadow: 5px 10px 20px #000;
   padding: 20px 10px;
   text-align: center;
   width: 20%;
 }
-.plan-gold h3{
+
+.plan-gold h3 {
   margin: 0px 10px;
   padding-bottom: 10px;
   font-size: 45px;
   text-align: center;
   color: orange;
 }
-.plan-gold p{
+
+.plan-gold p {
   font-size: 25px;
   color: white;
   padding-bottom: 20px;
   text-align: center;
 }
 
-.plan-gold button{
+.plan-gold button {
   color: orange;
   font-size: 20px;
   font-weight: bold;
@@ -737,42 +823,49 @@ header a:hover {
   border-radius: 15px;
   text-align: center;
   width: 65%;
-  background-color: rgba(0, 0, 0, 0.932);;
+  background-color: rgba(0, 0, 0, 0.932);
+  ;
   margin-top: 50%;
 }
-.plan-gold li{
+
+.plan-gold li {
   color: white;
   padding-top: 10px;
   text-align: start;
   padding-left: 15px;
 }
-.plan-gold button:hover{
+
+.plan-gold button:hover {
   color: white;
   cursor: pointer;
 }
+
 /* plan platinum*/
-.plan-platinum{
+.plan-platinum {
   border: 1px solid orange;
   background-color: rgba(0, 0, 0, 0.932);
-  box-shadow: 5px  10px 20px #000;
+  box-shadow: 5px 10px 20px #000;
   padding: 20px 10px;
   text-align: center;
   width: 20%;
 }
-.plan-platinum h3{
+
+.plan-platinum h3 {
   margin: 0px 10px;
   padding-bottom: 10px;
   font-size: 45px;
   text-align: center;
   color: orange;
 }
-.plan-platinum p{
+
+.plan-platinum p {
   font-size: 25px;
   color: white;
   padding-bottom: 20px;
   text-align: center;
 }
-.plan-platinum button{
+
+.plan-platinum button {
   color: orange;
   font-size: 20px;
   font-weight: bold;
@@ -780,16 +873,19 @@ header a:hover {
   border-radius: 15px;
   text-align: center;
   width: 65%;
-  background-color: rgba(0, 0, 0, 0.932);;
+  background-color: rgba(0, 0, 0, 0.932);
+  ;
   margin-top: 10%;
 }
-.plan-platinum li{
+
+.plan-platinum li {
   color: white;
   padding-top: 10px;
   text-align: start;
   padding-left: 15px;
 }
-.plan-platinum button:hover{
+
+.plan-platinum button:hover {
   color: white;
   cursor: pointer;
 
@@ -798,30 +894,41 @@ header a:hover {
 
 @media (max-width: 1200px) {
   .planes {
-      flex-direction:column;
-      align-items: center;
-      width: 100%;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
 
-  .plan-silver, .plan-gold, .plan-platinum {
-      width: 50%;
-      margin-bottom: 2rem;;
+  .plan-silver,
+  .plan-gold,
+  .plan-platinum {
+    width: 50%;
+    margin-bottom: 2rem;
+    ;
   }
 
-  .plan-platinum button, .plan-gold button , .plan-silver button {
-      font-size: 15px;
+  .plan-platinum button,
+  .plan-gold button,
+  .plan-silver button {
+    font-size: 15px;
   }
 
-  .plan-platinum h3, .plan-gold h3, .plan-silver h3 {
-      font-size: 30px;
+  .plan-platinum h3,
+  .plan-gold h3,
+  .plan-silver h3 {
+    font-size: 30px;
   }
 
-  .plan-silver p, .plan-gold p, .plan-platinum p {
-      font-size: 18px;
+  .plan-silver p,
+  .plan-gold p,
+  .plan-platinum p {
+    font-size: 18px;
   }
 
-  .plan-silver li, .plan-gold li, .plan-platinum li {
-      font-size: 10px;
+  .plan-silver li,
+  .plan-gold li,
+  .plan-platinum li {
+    font-size: 10px;
   }
 
   .plan-titulo p {
@@ -850,58 +957,91 @@ span {
   padding-top: 50px;
   text-align: center;
   font-size: 60px;
+  color: white;
 }
 
 .titulo-actividades p {
-  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
   padding: 20px 0px;
   text-align: center;
+  color: white;
 }
 
-.slider-container {
+#id-actividades {
+  background-image: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),
+  url(/assets/actividades2.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+}
+
+.slider-container-presentacion {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 30px;
+
+
 }
 
 .container-img {
+
   display: flex;
   justify-content: center;
   padding: 0 10px;
 }
-.contenedor-actividades{
+
+.contenedor-actividades {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 
 }
-.container-img > img {
+
+.container-img>img {
   width: 250px;
   padding: 5px;
 
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
+  .contenedor-actividades {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+  }
 
   .titulo-actividades h3 {
-    padding-top: 50px;
+    margin-top: 100px;
     text-align: center;
     font-size: 45px;
   }
+  
 }
+
 @media (max-width: 600px) {
 
   .titulo-actividades h3 {
-    padding-top: 50px;
+    padding-top: 1000px;
+    
     text-align: center;
     font-size: 45px;
   }
 }
+
 /* preguntas frecuentes */
 
+
 .container-preguntas {
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -914,6 +1054,7 @@ span {
   cursor: pointer;
   padding-bottom: 15px;
 }
+
 .container-preguntas h2:hover {
   color: rgb(255, 145, 0);
 }
@@ -924,20 +1065,32 @@ span {
   width: 60%;
 }
 
-.container-preguntas > p {
+.container-preguntas>p {
   color: black;
   font-size: 15px;
   padding: 1px;
   text-align: center;
 }
 
-.container-preguntas > h1 {
+.container-preguntas>h1 {
   padding-bottom: 100px;
   text-align: center;
   font-size: 60px;
 }
+.faqs-seccion{
+  background-image: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),
+  url(/assets/actividades1.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.span-faqs{
+  color: white;
+}
 
 .faqs {
+  
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -946,6 +1099,7 @@ span {
 }
 
 .faqs h1 {
+  color: orange;
   padding: 50px;
   text-align: center;
   font-size: 60px;
@@ -967,10 +1121,18 @@ span {
 
 
 .beneficios {
+  
+  background-image: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),
+  url(/assets/actividades.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 .beneficios-card {
@@ -981,6 +1143,7 @@ span {
 }
 
 .titulo-beneficios {
+  
   padding: 50px;
 }
 
@@ -990,11 +1153,15 @@ span {
 }
 
 .beneficios h1 {
+  color: white;
   text-align: center;
   font-size: 60px;
 }
+.beneficios h2{
+  color: orange;
+}
 
-.beneficios-card .card > img {
+.beneficios-card .card>img {
   width: 250px;
 }
 
@@ -1015,9 +1182,14 @@ span {
   transition: 0.3s;
   box-shadow: 0px 5px 10px rgb(100, 100, 100);
   font-weight: bold;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
 
 @media (max-width: 800px) {
+  .beneficios{
+    height: 100vh;
+  }
   .beneficios-card {
 
     display: flex;

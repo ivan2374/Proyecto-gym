@@ -65,51 +65,77 @@
                    
                     </nav>
                 </nav> -->
-                <nav class="navbar bg-body-tertiary fixed-top ">
-                    <div class="container-fluid d-flex justify-content-between  contenedor-header">
-                        <div class="tituloLogo">
-                            <img src="assets/icono.png" alt="">
-                            <p class="logo"> <a href="index.html"></a> POWERGYM</p>
-                        </div>
-                        <div class="enlaces">
-                            
-                            <a href="#id-actividades">Actividades</a>
-                            <a href="#id-planes">Planes</a>
-                            <a href="#id-faqs">FAQS</a>
-                            <a href="shop.html" target="_blank">Shop</a>
-                           
-                        </div>
+        <nav class="navbar fixed-top navbar-dark p-md-3">
+            <div class="container-fluid d-flex justify-content-between  contenedor-header">
+                <div class="tituloLogo">
+                    <!-- <img src="assets/icono.png" alt="" class="logo-nav"> -->
+                    <i class="fa-solid fa-dumbbell fa-flip fa-2xl " style="color: #ff8000;"></i>
+                    <p class="logo"> <a href="index.html"></a> POWER<span class="header-logo">GYM</span></p>
+                </div>
+                <div class="enlaces">
 
-                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Navegación de palanca">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                        <div class="offcanvas-header">
-                          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">POWERGYM</font></font></h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Cerca"></button>
-                        </div>
-                        <div class="offcanvas-body menu">
-                          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                              <a class="nav-link" href="#id-actividades"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Actividades</font></font></a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#id-planes"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Planes</font></font></a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#id-faqs"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Preguntas</font></font></a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Shop</font></font></a>
-                            </li>
-                            
-                          </ul>
-                          
-                        </div>
-                      </div>
+                    <a href="#id-actividades">ACTIVIDADES</a>
+                    <a href="#id-planes">PLANES</a>
+                    <a href="#id-beneficios">BENEFICIOS</a>
+                    <a href="#id-faqs">FAQS</a>
+                    <a href="shop.html" target="_blank">SHOP</a>
+
+
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                    aria-label="Navegación de palanca">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">POWERGYM</font>
+                            </font>
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Cerca"></button>
                     </div>
-                  </nav>
+                    <div class="offcanvas-body menu">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#id-actividades">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">ACTIVIDADES</font>
+                                    </font>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#id-planes">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">PLANES</font>
+                                    </font>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#id-faqs">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">PREGUNTAS</font>
+                                    </font>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">SHOP</font>
+                                    </font>
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
             </div>
+        </nav>
+        </div>
         </div>
     </header>
     <section class="presentacion ">
@@ -128,7 +154,9 @@
     </section>
 
     <section id="id-actividades" class="container-fluid ">
-        <div class="slider-container">
+
+        <div class="slider-container-presentacion">
+
             <div class="titulo-actividades container">
                 <h3>TODAS LAS <span> <br>
                         ACTIVIDADES</span> <br>
@@ -163,64 +191,67 @@
 
     </section>
 
-    <div class="plan-titulo">
-        <h3> ELEGI <br> TU PLAN</h3>
-        <p id="id-planes">Todo lo que buscás en un solo lugar. <br>
-            Estás a un click de distancia de asociarte a la comunidad deportiva mas grande del pais.
-        </p>
 
-    </div>
-    <section class="planes">
-
-        <div class="plan-silver">
-            <h3>SILVER</h3>
-            <div class="division"></div>
-            <p>PRECIO <br> $6000/mes</p>
-            <div class="division"></div>
-            <li>MUSCULACION</li>
-            <li>1 CLASE A LA SEMANA</li>
-            <li>APP RUTINAS</li>
-            <div>
-                <form target="_blank">
-                    <button onclick="location.href='registro.html'">SUSCRIBITE</button>
-                </form>
+    <section>
+        <div class="planes-contenedor">
+            <div class="plan-titulo">
+                <h3 id="id-planes"> ELEGI <br> <span class="span-planes">PLAN</span></h3>
+                <p>Todo lo que buscás en un solo lugar. <br>
+                    Estás a un click de distancia de asociarte a la comunidad deportiva mas grande del pais.
+                </p>
             </div>
-        </div>
-        <div class="plan-gold">
-            <h3>GOLD</h3>
-            <div class="division"></div>
-            <p>PRECIO <br> $12000/mes</p>
+            <div class="planes-card">
+                <div class="plan-silver">
+                    <h3>SILVER</h3>
+                    <div class="division"></div>
+                    <p>PRECIO <br> $6000/mes</p>
+                    <div class="division"></div>
+                    <li>MUSCULACION</li>
+                    <li>1 CLASE A LA SEMANA</li>
+                    <li>APP RUTINAS</li>
+                    <div>
+                        <form target="_blank">
+                            <button onclick="location.href='registro.html'">SUSCRIBITE</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="plan-gold">
+                    <h3>GOLD</h3>
+                    <div class="division"></div>
+                    <p>PRECIO <br> $12000/mes</p>
 
-            <div class="division"></div>
-            <li>MUSCULACION</li>
-            <li>3 CLASES A LA SEMANA</li>
-            <li>APP RUTINAS</li>
-            <li>ACCESO A 250 CEDES</li>
-            <li>ACCESO A LA PISCINA</li>
-            <div>
-                <form target="_blank">
-                    <button onclick="location.href='registro.html'">SUSCRIBITE</button>
-                </form>
-            </div>
-        </div>
-        <div class="plan-platinum">
-            <h3>PLATINUM</h3>
-            <div class="division"></div>
-            <p>PRECIO <br> $19500/mes</p>
+                    <div class="division"></div>
+                    <li>MUSCULACION</li>
+                    <li>3 CLASES A LA SEMANA</li>
+                    <li>APP RUTINAS</li>
+                    <li>ACCESO A 250 CEDES</li>
+                    <li>ACCESO A LA PISCINA</li>
+                    <div>
+                        <form target="_blank">
+                            <button onclick="location.href='registro.html'">SUSCRIBITE</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="plan-platinum">
+                    <h3>PLATINUM</h3>
+                    <div class="division"></div>
+                    <p>PRECIO <br> $19500/mes</p>
 
-            <div class="division"></div>
-            <li>MUSCULACION</li>
-            <li>3 CLASES A LA SEMANA</li>
-            <li>APP RUTINAS</li>
-            <li>ACCESO A 250 CEDES</li>
-            <li>ACCESO A LA PISCINA</li>
-            <li>ENTRENADOR PERSONAL</li>
-            <li>PLAN DE ALIMENTCION</li>
-            <li>APTO FISICO GRATIS</li>
-            <div>
-                <form target="_blank">
-                    <button onclick="location.href='registro.html'">SUSCRIBITE</button>
-                </form>
+                    <div class="division"></div>
+                    <li>MUSCULACION</li>
+                    <li>3 CLASES A LA SEMANA</li>
+                    <li>APP RUTINAS</li>
+                    <li>ACCESO A 250 CEDES</li>
+                    <li>ACCESO A LA PISCINA</li>
+                    <li>ENTRENADOR PERSONAL</li>
+                    <li>PLAN DE ALIMENTCION</li>
+                    <li>APTO FISICO GRATIS</li>
+                    <div>
+                        <form target="_blank">
+                            <button onclick="location.href='registro.html'">SUSCRIBITE</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -250,101 +281,115 @@
         </div>
       
     </section> -->
-    <section id="id-beneficios" class="container-fluid beneficios ">
-        <div class="container text-center titulo-beneficios ">
-            <h1>BENEFICIOS</h1>
-            <h2>exclusivos para vos</h2>
+    <section id="id-beneficios" class="container-fluid beneficios">
+        <div class="container text-center titulo-beneficios">
+          <h1>BENEFICIOS</h1>
+          <h2 id="beneficios">exclusivos para vos</h2>
         </div>
-
-
-        <div class="beneficios-card">
+      
+        <div class="row">
+          <div class="col-sm-12 col-md-4 beneficios-card">
             <div class="card" id="card-1">
-                <a href="rutina.html" target="_blank"><img src="assets/rutina.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Rutinas de entrenamiento perzonalidas.</p>
-                </a>
+              <a href="rutina.html" target="_blank">
+                <img src="assets/rutina.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Rutinas de entrenamiento personalizadas.</p>
+                </div>
+              </a>
             </div>
-        </div>
-        <div class="beneficios-card">
+          </div>
+      
+          <div class="col-sm-12 col-md-4 beneficios-card">
             <div class="card" id="card-2">
-                <a href="rutina.html" target="_blank"><img src="assets/shop.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Tienda online con los productos que buscas.</p>
-                </a>
+              <a href="rutina.html" target="_blank">
+                <img src="assets/shop.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Tienda online con los productos que buscas.</p>
+                </div>
+              </a>
             </div>
-        </div>
-        <div class="beneficios-card">
+          </div>
+      
+          <div class="col-sm-12 col-md-4 beneficios-card">
             <div class="card" id="card-3">
-                <a href="rutina.html" target="_blank"><img src="assets/alimentacion.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Plan de alimentacion con recetas y consejos.</p>
-                </a>
+              <a href="rutina.html" target="_blank">
+                <img src="assets/alimentacion.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Plan de alimentación con recetas y consejos.</p>
+                </div>
+              </a>
             </div>
+          </div>
         </div>
-       
-    </section>
+      </section>
 
-    <section id="id-faqs" class="container faqs   text-center">
-        <h1>Preguntas frecuentes</h1>
-        <div class="accordion col-lg-8" id="accordionPanelsStayOpenExample">
-            <div class="accordion-item ">
-                <h2 class="accordion-header ">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
-                        aria-controls="panelsStayOpen-collapseOne">
-                        ¿Como registrase?
-                    </button>
-                </h2>
-                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse ">
-                    <div class="accordion-body">
-                        Para registrarse hacer click <a href="registro.html"> aqui</a> y completar todos los datos
-                        solicitados.
+    <section class="faqs-seccion">
+        <div id="id-faqs" class="container faqs   text-center">
+
+            <h1 class="faqs-h1">PREGUNTAS<br><span class="span-faqs">FRECUENTAS</span></h1>
+            <div class="accordion col-lg-8 opacity-75" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item ">
+                    <h2 class="accordion-header ">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            ¿Como registrase?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse ">
+                        <div class="accordion-body">
+                            Para registrarse hacer click <a href="registro.html"> aqui</a> y completar todos los datos
+                            solicitados.
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                        aria-controls="panelsStayOpen-collapseTwo">
-                        ¿Como se abona la cuota mensual?
-                    </button>
-                </h2>
-                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        En un Plan Mensual, el primer cargo en tu cuenta se genera al momento de tu alta y corresponde
-                        al primer mes de vigencia de tu Plan. La vigencia se renueva de forma automática cada mes el
-                        mismo día en el que te diste de alta.
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            ¿Como se abona la cuota mensual?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            En un Plan Mensual, el primer cargo en tu cuenta se genera al momento de tu alta y
+                            corresponde
+                            al primer mes de vigencia de tu Plan. La vigencia se renueva de forma automática cada mes el
+                            mismo día en el que te diste de alta.
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                        aria-controls="panelsStayOpen-collapseThree">
-                        ¿A partir de que edad puedo ir al gym?
-                    </button>
-                </h2>
-                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        La edad más recomendada para comenzar en el gym es una vez terminado el proceso de desarrollo de
-                        la pubertad, entre los 15 y 16 años
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            ¿A partir de que edad puedo ir al gym?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            La edad más recomendada para comenzar en el gym es una vez terminado el proceso de
+                            desarrollo de
+                            la pubertad, entre los 15 y 16 años
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
-                        aria-controls="panelsStayOpen-collapseThree">
-                        ¿Como comprar en el shop?
-                    </button>
-                </h2>
-                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        Para comprar un producto en debes ir a <a href="tienda" target="_blank"> Shop</a> y seleccionar
-                        el producto que desea comprar
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            ¿Como comprar en el shop?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Para comprar un producto en debes ir a <a href="tienda" target="_blank"> Shop</a> y
+                            seleccionar
+                            el producto que desea comprar
+                        </div>
                     </div>
                 </div>
             </div>
@@ -515,107 +560,20 @@ text-decoration: none;
 cursor: pointer;
 }
 </style> -->
-    <!-- Seccion reseñas  -->
-    <div class="contenedor">
-        <div class="slider-contenedor">
-            <div class="slider-test">
-                <div class="titulo">
-                    <img src="Assets/icono.png" alt="" class="logo-titulo">
-                    <h2 class="titulo-slider">POWER<span id="span-title">GYM</span></h2>
-                </div>
-                <div class="google">
-                    <p class="google">powered by</p>
-                    <img src="assets/google-logo-1.png" id="google">
-                </div>
-                <div class="stars">
-                    <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
-                    <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
-                    <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
-                    <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
-                    <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
-
-                </div>
-                <p class="review"></p>
-                <img src="" alt="" class="photo">
-                <div class="quote">
-                    <i class="fa-solid fa-quote-left fa-2xl" style="color: #ea980b;"></i>
-                </div>
-                <h3 class="author"></h3>
-            </div>
-            <div class="slider-test">
-                <div class="titulo">
-                    <img src="Assets/icono.png" alt="" class="logo-titulo">
-                    <h2 class="titulo-slider">POWER<span id="span-title">GYM</span></h2>
-                </div>
-
-                <div class="stars">
-                    <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
-                    <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
-                    <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
-                    <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
-                    <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
-                </div>
-                <p class="first-review"></p>
-                <img src="" alt="" class="first-photo">
-                <div class="quote">
-                    <i class="fa-solid fa-quote-left fa-2xl" style="color: #ea980b;"></i>
-                </div>
-                <h3 class="first-author"></h3>
-            </div>
-            <div class="slider-test">
-                <div class="titulo">
-                    <img src="Assets/icono.png" alt="" class="logo-titulo">
-                    <h2 class="titulo-slider">POWER<span id="span-title">GYM</span></h2>
-                </div>
-
-                <div class="stars">
-                    <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
-                    <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
-                    <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
-                    <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
-                    <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
-                </div>
-                <p class="second-review"></p>
-                <img src="" alt="" class="second-photo">
-                <div class="quote">
-                    <i class="fa-solid fa-quote-left fa-2xl" style="color: #ea980b;"></i>
-                </div>
-                <h3 class="second-author"></h3>
-            </div>
-            <div class="slider-test">
-                <div class="titulo">
-                    <img src="Assets/icono.png" alt="" class="logo-titulo">
-                    <h2 class="titulo-slider">POWER<span id="span-title">GYM</span></h2>
-                </div>
-
-                <div class="stars">
-                    <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
-                    <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
-                    <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
-                    <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
-                    <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
-                </div>
-                <p class="third-review"></p>
-                <img src="" alt="" class="third-photo">
-                <div class="quote">
-                    <i class="fa-solid fa-quote-left fa-2xl" style="color: #ea980b;"></i>
-                </div>
-                <h3 class="third-author"></h3>
-            </div>
-        </div>
-    </div>
+   
     <!-- footer -->
     <footer>
         <div class="contenedor-footer">
             <div class="sobrenosotros container">
                 <h2 id="id-nosotros">Sobre Nosotros</h2>
-                <p>somos un gimnasio con grandes aspiraciones, conocimientos sólidos en las actividades que brindamos y
+                <p>somos un gimnasio con grandes aspiraciones, conocimientos sólidos en las actividades que
+                    brindamos y
                     mas de 20 años de expeciencia. <br>
                     Nuestra mision es que las personas puedan ejercitarse con pasion y alcanzar sus objetivos
                     individuales
                 </p>
             </div>
-          
+
             <div class="contacto container">
                 <h2 id="abrir-modal"> Contacto</h2>
                 <p>sede caballito <br>
@@ -634,6 +592,106 @@ cursor: pointer;
                 </div>
             </div>
         </div>
+         <!-- Seccion reseñas  -->
+    <section class="seccion-slider">
+        <div class="contenedor">
+            <div class="slider-contenedor">
+                <div class="slider-test">
+                    <div class="titulo">
+                        <i class="fa-solid fa-dumbbell fa-flip fa-xl logo-titulo " style="color: #ff8000;"></i>
+                        <h2 class="titulo-slider">POWER<span id="span-title">GYM</span></h2>
+                    </div>
+                    <div class="google">
+                        <p class="google">powered by</p>
+                        <img src="assets/google-logo-1.png" id="google">
+                    </div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
+                        <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
+                        <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
+                        <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
+                        <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
+
+                    </div>
+                    <p class="review"></p>
+                    <img src="" alt="" class="photo">
+                    <div class="quote">
+                        <i class="fa-solid fa-quote-left fa-2xl" style="color: #ea980b;"></i>
+                    </div>
+                    <h3 class="author"></h3>
+                </div>
+                <div class="slider-test">
+                    <div class="titulo">
+                        <i class="fa-solid fa-dumbbell fa-flip fa-xl logo-titulo " style="color: #ff8000;"></i>
+                        <h2 class="titulo-slider">POWER<span id="span-title">GYM</span></h2>
+                    </div>
+                    <div class="google">
+                        <p class="google">powered by</p>
+                        <img src="assets/google-logo-1.png" id="google">
+                    </div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
+                        <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
+                        <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
+                        <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
+                        <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
+                    </div>
+                    <p class="first-review"></p>
+                    <img src="" alt="" class="first-photo">
+                    <div class="quote">
+                        <i class="fa-solid fa-quote-left fa-xl" style="color: #ea980b;"></i>
+                    </div>
+                    <h3 class="first-author"></h3>
+                </div>
+                <div class="slider-test">
+                    <div class="titulo">
+                        <i class="fa-solid fa-dumbbell fa-flip fa-2xl logo-titulo " style="color: #ff8000;"></i>
+                        <h2 class="titulo-slider">POWER<span id="span-title">GYM</span></h2>
+                    </div>
+                    <div class="google">
+                        <p class="google">powered by</p>
+                        <img src="assets/google-logo-1.png" id="google">
+                    </div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
+                        <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
+                        <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
+                        <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
+                        <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
+                    </div>
+                    <p class="second-review"></p>
+                    <img src="" alt="" class="second-photo">
+                    <div class="quote">
+                        <i class="fa-solid fa-quote-left fa-xl" style="color: #ea980b;"></i>
+                    </div>
+                    <h3 class="second-author"></h3>
+                </div>
+                <div class="slider-test">
+                    <div class="titulo">
+                        <i class="fa-solid fa-dumbbell fa-flip fa-xl logo-titulo " style="color: #ff8000;"></i>
+                        <h2 class="titulo-slider">POWER<span id="span-title">GYM</span></h2>
+                    </div>
+                    <div class="google">
+                        <p class="google">powered by</p>
+                        <img src="assets/google-logo-1.png" id="google">
+                    </div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
+                        <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
+                        <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
+                        <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
+                        <i class="fa-solid fa-star fa-beat fa-lg" style="color: #ea980b;"></i>
+                    </div>
+                    <p class="third-review"></p>
+                    <img src="" alt="" class="third-photo">
+                    <div class="quote">
+                        <i class="fa-solid fa-quote-left fa-2xl" style="color: #ea980b;"></i>
+                    </div>
+                    <h3 class="third-author"></h3>
+                </div>
+            </div>
+        </div>
+    </section>
         <div class="sub-footer">
             <p> Copyright © 2023 <br> Telf. (+34) 871 536 233
                 - info@gmail.com
@@ -641,7 +699,7 @@ cursor: pointer;
             </p>
         </div>
     </footer>
-    
+
 
 
     <script src="functions.js"></script>
